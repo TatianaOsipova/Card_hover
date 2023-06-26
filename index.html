@@ -2,27 +2,60 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Card_hover</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Card_hover</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
 
-    <div class="page-content">
-      <h1 class="page-content__title">
-        The 4 spiritual elements of nature
-      </h1>
-
-      <div class="card">
-        <img src="" alt="">
+  <h1 class="page-content__title">
+    The 4 spiritual elements of nature
+  </h1>
+  <main class="page-content">
+    <div class="card">
+      <img src="img/fire-min.jpg" alt="#">
+      <div class="content">
+        <h2 class="title">Fire</h2>
+        <p class="copy">Fire represents energy, a tool for transformation, connection to personal power, and inner
+          strength.</p>
+        <button class="btn">Learn more</button>
       </div>
-
-        
     </div>
 
-    - var cards = [{ title: 'Mountain View', copy: 'Check out all of these gorgeous mountain trips with beautiful views of, you guessed it, the mountains', button: 'View Trips' }, 
+    <div class="card">
+      <img src="img/earth-min.jpg" alt="#">
+      <div class="content">
+        <h2 class="title">Earth</h2>
+        <p class="copy">Earth represents grounding, the foundation of life, substance, connection to life path, and
+          family roots.</p>
+        <button class="btn">Learn more</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/water-min.jpg" alt="#">
+      <div class="content">
+        <h2 class="title">Water</h2>
+        <p class="copy">Water represents emotional release, intuition, and inner reflection.</p>
+        <button class="btn">Learn more</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="img/air-min.jpg" alt="#">
+      <div class="content">
+        <h2 class="title">Air</h2>
+        <p class="copy">Air represents intellect, mental intention, and connection to universal life force.</p>
+        <button class="btn">Learn more</button>
+      </div>
+    </div>
+  </main>
+
+
+
+  <!-- - var cards = [{ title: 'Mountain View', copy: 'Check out all of these gorgeous mountain trips with beautiful views of, you guessed it, the mountains', button: 'View Trips' }, 
     { title: 'To The Beach', copy: 'Plan your next beach trip with these fabulous destinations', button: 'View Trips' }, 
     { title: 'Desert Destinations', copy: 'It\'s the desert you\'ve always dreamed of', button: 'Book Now' }, 
     { title: 'Explore The Galaxy', copy: 'Seriously, straight up, just blast off into outer space today', button: 'Book Now' }]
@@ -37,7 +70,7 @@ mixin card(title, copy, button)
 
 main.page-content
   each card in cards
-    +card(card.title, card.copy, card.button)
+    +card(card.title, card.copy, card.button) -->
 
 </body>
 
