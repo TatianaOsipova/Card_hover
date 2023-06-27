@@ -35,6 +35,7 @@ body {
   max-width: 1024px;
   margin: 0 auto;
   font-family: var(--font-sans);
+  margin-bottom: 250px;
 }
 
 @media (min-width: 600px) {
@@ -166,6 +167,10 @@ body {
   outline-offset: 3px;
 }
 
+.name{
+  text-align: center;
+
+}
 
 
 @media (hover: hover) and (min-width: 600px) {
