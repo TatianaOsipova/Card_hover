@@ -167,10 +167,21 @@ body {
   outline-offset: 3px;
 }
 
-.name{
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.social__media-link img{
+  width: 25px;
+  height: 25px;
+}
+
+/* .name{
   text-align: center;
 
-}
+} */
 
 
 @media (hover: hover) and (min-width: 600px) {
