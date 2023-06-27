@@ -167,10 +167,39 @@ body {
   outline-offset: 3px;
 }
 
-footer{
+/* footer{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+} */
+
+.container{
+  max-width: 1024px;  
+  margin: 0 auto;
+}
+
+.name{
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.social__media-items{
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+ 
+}
+
+.social__media-item:first-child{
+  padding-right: 10px;
+
+}
+
+.social__media-item:last-child{
+  padding-left: 10px;
+
 }
 
 .social__media-link img{
