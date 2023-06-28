@@ -19,12 +19,12 @@ body {
 }
 
 body {
-  /* display: grid; */
   place-items: center;
 }
 
 .header__title {
   font-family: "Cargo", serif;
+  font-weight: 400;
   text-transform: capitalize;
   text-align: center;
   margin: 100px;
@@ -37,7 +37,7 @@ body {
   max-width: 1024px;
   margin: 0 auto;
   font-family: var(--font-sans);
-  margin-bottom: 250px;
+  margin-bottom: 220px;
 }
 
 @media (min-width: 600px) {
@@ -94,22 +94,22 @@ body {
   height: 200%;
   pointer-events: none;
   background-image: linear-gradient(to bottom,
-   hsla(0, 0%, 0%, 0) 0%, 
-   hsla(0, 0%, 0%, 0.009) 11.7%,
-    hsla(0, 0%, 0%, 0.034) 22.1%, 
-    hsla(0, 0%, 0%, 0.072) 31.2%, 
-    hsla(0, 0%, 0%, 0.123) 39.4%, 
-    hsla(0, 0%, 0%, 0.182) 46.6%, 
-    hsla(0, 0%, 0%, 0.249) 53.1%, 
-    hsla(0, 0%, 0%, 0.32) 58.9%, 
-    hsla(0, 0%, 0%, 0.394) 64.3%, 
-    hsla(0, 0%, 30%, 0.468) 69.3%, 
-    hsla(0, 0%, 40%, 0.54) 74.1%, 
-    hsla(0, 0%, 50%, 0.607) 78.8%, 
-    hsla(0, 0%, 60%, 0.668) 83.6%, 
-    hsla(0, 0%, 70%, 0.721) 88.7%, 
-    hsla(0, 0%, 80%, 0.762) 94.1%, 
-    hsla(0, 0%, 100%, 0.79) 100%);
+      hsla(0, 0%, 0%, 0) 0%,
+      hsla(0, 0%, 0%, 0.009) 11.7%,
+      hsla(0, 0%, 0%, 0.034) 22.1%,
+      hsla(0, 0%, 0%, 0.072) 31.2%,
+      hsla(0, 0%, 0%, 0.123) 39.4%,
+      hsla(0, 0%, 0%, 0.182) 46.6%,
+      hsla(0, 0%, 0%, 0.249) 53.1%,
+      hsla(0, 0%, 0%, 0.32) 58.9%,
+      hsla(0, 0%, 0%, 0.394) 64.3%,
+      hsla(0, 0%, 30%, 0.468) 69.3%,
+      hsla(0, 0%, 40%, 0.54) 74.1%,
+      hsla(0, 0%, 50%, 0.607) 78.8%,
+      hsla(0, 0%, 60%, 0.668) 83.6%,
+      hsla(0, 0%, 70%, 0.721) 88.7%,
+      hsla(0, 0%, 80%, 0.762) 94.1%,
+      hsla(0, 0%, 100%, 0.79) 100%);
   transform: translateY(-50%);
   transition: transform calc(var(--d) * 2) var(--e);
 }
@@ -203,12 +203,12 @@ body {
   padding: 0;
 }
 
-.social__media-item:first-child {
+.social__media-item {
   padding-right: 10px;
 }
 
 .social__media-item:last-child {
-  padding-left: 10px;
+  padding-right: 0;
 }
 
 .social__media-link img {
